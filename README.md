@@ -26,3 +26,4 @@ npm run dev
 - **Empresário**: Seção focada em gestão de negócios, produtos e visão estratégica.
 - **Contato**: Seus canais de comunicação direta.
 # Portifolio
+# Portifolio

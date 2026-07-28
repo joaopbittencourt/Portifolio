@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-business-orb {
+  animation: businessOrb 8s ease-in-out infinite alternate;
+}
+
+.hero-business-card {
+  animation: businessFloat 6s ease-in-out infinite;
+}
+
+.hero-business-card-right {
+  animation-delay: -2s;
+}
+
+.hero-business-grid {
+  background-image: linear-gradient(rgba(100, 255, 218, 0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(100, 255, 218, 0.12) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), transparent);
+}
+
+.hero-business-progress {
+  animation: businessProgress 3.2s ease-in-out infinite alternate;
+}
+
+@keyframes businessOrb {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.08);
+    opacity: 0.95;
+  }
+}
+
+@keyframes businessFloat {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes businessProgress {
+  0% {
+    width: 60%;
+  }
+  100% {
+    width: 82%;
+  }
+}
