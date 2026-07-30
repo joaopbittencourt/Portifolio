@@ -1,4 +1,4 @@
-# Portfolio Multidisciplinar (Dev, DevOps & Empresário)
+# Portfolio (Dev, DevOps & Empresário)
 
 Este é um mockup funcional completo desenvolvido com **React + Vite + Tailwind CSS**, utilizando uma paleta de cores focada em autoridade (Azul Marinho `#0A192F`) e leveza/inovação (Ciano `#64FFDA`).
 
