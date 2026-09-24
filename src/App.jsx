@@ -350,48 +350,73 @@ export default function App() {
                     <span className="text-[#64FFDA] font-mono text-sm">01</span>
                     <ArrowRight size={20} className="text-[#8892B0] transition-transform group-hover:translate-x-1 group-hover:text-[#64FFDA]" />
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Plataforma para Clínicas</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">Sistema de gerenciamento para clinicas multidisciplinares</h3>
                   <p className="text-[#8892B0] text-sm leading-relaxed">
-                    Gestão integrada para clínicas multidisciplinares, conectando agenda, profissionais, pacientes e indicadores em uma única operação.
+                    Plataforma moderna em desenvolvimento contínuo, desenhada para otimizar a eficiência operacional de clínicas e profissionais de saúde. Destaque técnico e de UX: Arquitetura inteligente de agendamentos recorrentes. Enquanto os softwares tradicionais exigem cadastros manuais semanais ou mensais exaustivos, o sistema aloca e gerencia automaticamente as sessões futuras enquanto a recorrência estiver ativa, eliminando trabalhos repetitivos e reduzindo gargalos administrativos.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2 pt-6 mt-6 border-t border-[#1d3557]/50">
-                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Angular</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Java</span>
                   <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Spring Boot</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Angular</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">PostgreSQL</span>
                 </div>
               </article>
-
               <article className="surface-card p-8 rounded-2xl flex flex-col justify-between min-h-[310px] group">
                 <div>
                   <div className="flex items-center justify-between mb-8">
                     <span className="text-[#64FFDA] font-mono text-sm">02</span>
                     <ArrowRight size={20} className="text-[#8892B0] transition-transform group-hover:translate-x-1 group-hover:text-[#64FFDA]" />
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-3">ERP sob medida</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">CRM para Gestão de Moteis</h3>
                   <p className="text-[#8892B0] text-sm leading-relaxed">
-                    Sistema proprietário para automatizar processos, reduzir retrabalho e dar clareza sobre a operação de negócios em crescimento.
+                    Sistema proprietário desenvolvido em 2016 para controle operacional de ponta a ponta e ainda em pleno funcionamento em produção. Destaque técnico: Integração direta de software com hardware físico via sensores IoT, automatizando os gatilhos de abertura e encerramento de locações de quartos em tempo real. Uma solução robusta desenhada para operar de forma contínua e sem falhas em ambientes de alta exigência comercial.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2 pt-6 mt-6 border-t border-[#1d3557]/50">
-                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">APIs</span>
-                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Docker</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">PHP</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Codeigniter</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Bootstrap</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Java</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">MySQL</span>
+
                 </div>
               </article>
-
               <article className="surface-card p-8 rounded-2xl flex flex-col justify-between min-h-[310px] group">
                 <div>
                   <div className="flex items-center justify-between mb-8">
                     <span className="text-[#64FFDA] font-mono text-sm">03</span>
                     <ArrowRight size={20} className="text-[#8892B0] transition-transform group-hover:translate-x-1 group-hover:text-[#64FFDA]" />
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Infraestrutura de Alta Disponibilidade</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">SIRSP - Sistema de recadastamento de prova de vida</h3>
                   <p className="text-[#8892B0] text-sm leading-relaxed">
-                    Ambientes virtualizados e pipelines automatizados para manter aplicações críticas estáveis, observáveis e prontas para escalar.
+                    Sistema interno de gestão e verificação para aposentados e pensionistas da Caixa Econômica Federal. Destaque técnico: Liderança na modernização da arquitetura para integração com a API do SERPRO, superando desafios de mapeamento e compatibilidade de chaves internas. Como a API externa não disponibilizava relatórios consolidados, desenvolvi um motor interno de rastreio e geração de protocolos para auditoria e controle do status de prova de vida do exercício atual.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2 pt-6 mt-6 border-t border-[#1d3557]/50">
-                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Proxmox</span>
-                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">CI/CD</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Java</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Spring</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Angular</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">PostgreSQL</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">SERPRO</span>
+                </div>
+              </article>
+              <article className="surface-card p-8 rounded-2xl flex flex-col justify-between min-h-[310px] group">
+                <div>
+                  <div className="flex items-center justify-between mb-8">
+                    <span className="text-[#64FFDA] font-mono text-sm">04</span>
+                    <ArrowRight size={20} className="text-[#8892B0] transition-transform group-hover:translate-x-1 group-hover:text-[#64FFDA]" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-white mb-3">SIARG - Sistema Integrado de Atendimento da Rede de Governo</h3>
+                  <p className="text-[#8892B0] text-sm leading-relaxed">
+                    Sistema interno de comunicação e acompanhamento da Caixa Econômica Federal utilizado primordialmente para gerenciar demandas, e-mails institucionais e processos formais com entes públicos.
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-2 pt-6 mt-6 border-t border-[#1d3557]/50">
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Java</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Spring boot</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">Angular</span>
+                  <span className="px-3 py-1 bg-[#0A192F] text-[#64FFDA] text-xs font-mono rounded">PostgreSQL</span>
                 </div>
               </article>
             </div>
